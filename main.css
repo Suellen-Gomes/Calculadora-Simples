@@ -1,0 +1,60 @@
+html{
+margin: 0;
+padding: 0;
+background: #FF9562;
+}
+
+.Box{
+	max-width: 90%;
+	width: 720px;
+	border: 1px solid rgb(255,15,0);
+	border-radius: 50px 8px 50px 8px;
+	display: block;
+	margin: 10% auto;
+	position: relative;
+	background: rgba(255,0,0, 0.65);
+}
+
+.box_value {
+	display: flex;
+	flex-direction: column;
+	max-width: 90%;
+    width: 450px;
+	height: 36px;
+	font: bold 20px Arial, serif;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 8px 50px 8px 50px;
+	margin: 2.4% auto;
+	background: rgba(255,255,255, 0.74);
+	outline: none;
+}
+
+.box_value::placeholder{
+	color: rgba(0,0,0, 0.85);
+	font: bold italic 14px Arial, serif;
+	text-indent: 5px;
+}
+
+#count {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-block: 3.5%;
+}
+
+button {
+	width: 150px;
+	height: 3.6% ;
+	background: rgb(255,255,0);
+	font: bold 20px Arial, san-serif;
+	padding-block: 10px;
+	border: 2px solid black;
+}
+
+#display{
+	width: 400px;
+	font: bold 27px Arial, sans-serif;
+	margin: 5.0% auto;
+	text-align: center;
+}
